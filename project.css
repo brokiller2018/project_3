@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+body{
+    background-color: #e5eff8;
+    font-family: 'Montserrat', sans-serif;
+    color: #333c4e;
+    font-weight: 500;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0px 15px;
+}
+.header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 105px;
+}
+.header_info{
+    padding: 9px 15px;
+    display: flex;
+}
+.header_info_right{
+    text-decoration: none;
+    color: #333c4e;
+    margin-right: 50px;
+    font-weight: 500;
+}
+.header_info_right:last-child{
+    margin-right: 0px;
+}
+.main{  
+    margin-top: 45px;
+    height: 527px;
+    background: linear-gradient( rgba(48, 45, 45, 0.8), rgba(22, 21, 21, 0.5) ), url(tzi_home.jpg);
+    background-size: cover;
+}
+.font_main{
+    padding-top: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 72px;
+}
+.font_main_info{
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 45px;
+    color: #fff;
+    font-size: 37px;
+}
+.header_defends{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(187, 72, 72);
+}
+.defends_content{
+    display: flex;
+    margin-top: 40px;
+}
+.defends_content_1{
+    text-align: center;
+    padding: 30px 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    color: #333c4e;
+    background-color: #ffffff;
+    width: 385px;
+    line-height: 1.3;
+}
+.defends_content_2{
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    color: #333c4e;
+    background-color: #ffffff;
+    width: 385px;
+    line-height: 1.3;
+}
+.defends_content_3{
+    margin-right: 20px;
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 10px;
+    color: #333c4e;
+    background-color: #ffffff;
+    width: 385px;
+    line-height: 1.3;
+}
+.defends_color{
+    color: rgb(187, 72, 72);
+    font-size: 20px;
+}
+.container_2{
+    max-width: 1289px;
+    margin: 0 auto; 
+    margin-top: 80px;
+}
+.shifr1{
+    padding-top: 33px;
+}
+.shifr2{
+    padding-top: 15px;
+}
+.shifr3{
+    padding-top: 60px;
+}
+.antivirus{
+    margin-top: 40px;
+}
+.header_antivirus{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(187, 72, 72);
+}
+.Kaspersky{
+    line-height: 1.4;
+    margin-top: 60px;
+    flex: 0 0 33.333%;
+    display: flex;
+    position: relative;
+    min-height: 150px;
+}
+.Kas{
+    color: #333c4e;
+    text-decoration: none;
+    font-size: 24px;
+}
+.Kaspersky img{
+    width: 300px;
+    height: 300px;
+}
+.info_kas{
+    margin-left: 40px;
+}
+.nod{
+    line-height: 1.4;
+    margin-top: 40px;
+    flex: 0 0 33.333%;
+    display: flex;
+    position: relative;
+    min-height: 150px;
+}
+.nod img{
+    width: 300px;
+    height: 230px;
+}
+.Avast{
+    line-height: 1.4;
+    margin-top:82px;
+    flex: 0 0 33.333%;
+    display: flex;
+    position: relative;
+    min-height: 150px;
+}
+.Avast img{
+    width: 300px;
+    height: 230px;
+}
+.lox{
+    margin-top: 20px;
+}
+.hr{
+    margin-top: 80px;
+}
+.about_me{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
